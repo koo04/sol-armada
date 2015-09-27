@@ -1,0 +1,186 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'forever',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'forever', null ]
+6 verbose cache add name=undefined spec="forever" args=["forever",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'forever',
+7 verbose parsed url   path: 'forever',
+7 verbose parsed url   href: 'forever' }
+8 silly lockFile e07f8c4a-forever forever
+9 verbose lock forever /home/douglas/.npm/e07f8c4a-forever.lock
+10 silly lockFile e07f8c4a-forever forever
+11 silly lockFile e07f8c4a-forever forever
+12 verbose addNamed [ 'forever', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 28ef027b-forever forever@
+15 verbose lock forever@ /home/douglas/.npm/28ef027b-forever.lock
+16 silly addNameRange { name: 'forever', range: '*', hasData: false }
+17 verbose request where is /forever
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 4d2439ef4de09d97
+20 verbose url raw /forever
+21 verbose url resolving [ 'https://registry.npmjs.org/', './forever' ]
+22 verbose url resolved https://registry.npmjs.org/forever
+23 verbose request where is https://registry.npmjs.org/forever
+24 info trying registry request attempt 1 at 11:04:16
+25 verbose etag "WV9OWBYL9R109E29MFM5SSR1"
+26 http GET https://registry.npmjs.org/forever
+27 http 304 https://registry.npmjs.org/forever
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Sun, 27 Sep 2015 18:04:16 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     etag: '"WV9OWBYL9R109E29MFM5SSR1"',
+28 silly registry.get     age: '30',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-lax1424-LAX',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '15',
+28 silly registry.get     'x-timer': 'S1443377056.147998,VS0,VE0',
+28 silly registry.get     vary: 'Accept' } ]
+29 verbose etag https://registry.npmjs.org/forever from cache
+30 silly addNameRange number 2 { name: 'forever', range: '*', hasData: true }
+31 silly addNameRange versions [ 'forever',
+31 silly addNameRange   [ '0.6.0',
+31 silly addNameRange     '0.6.1',
+31 silly addNameRange     '0.6.2',
+31 silly addNameRange     '0.6.3',
+31 silly addNameRange     '0.6.4',
+31 silly addNameRange     '0.6.5',
+31 silly addNameRange     '0.6.6',
+31 silly addNameRange     '0.6.7',
+31 silly addNameRange     '0.6.8',
+31 silly addNameRange     '0.6.9',
+31 silly addNameRange     '0.7.0',
+31 silly addNameRange     '0.7.1',
+31 silly addNameRange     '0.7.2',
+31 silly addNameRange     '0.7.3',
+31 silly addNameRange     '0.7.4',
+31 silly addNameRange     '0.7.5',
+31 silly addNameRange     '0.8.0',
+31 silly addNameRange     '0.8.1',
+31 silly addNameRange     '0.8.2',
+31 silly addNameRange     '0.8.3',
+31 silly addNameRange     '0.8.4',
+31 silly addNameRange     '0.8.5',
+31 silly addNameRange     '0.9.0',
+31 silly addNameRange     '0.9.1',
+31 silly addNameRange     '0.9.2',
+31 silly addNameRange     '0.10.0',
+31 silly addNameRange     '0.10.5',
+31 silly addNameRange     '0.10.6',
+31 silly addNameRange     '0.10.7',
+31 silly addNameRange     '0.10.8',
+31 silly addNameRange     '0.10.9',
+31 silly addNameRange     '0.10.10',
+31 silly addNameRange     '0.10.11',
+31 silly addNameRange     '0.11.0',
+31 silly addNameRange     '0.11.1',
+31 silly addNameRange     '0.12.0',
+31 silly addNameRange     '0.13.0',
+31 silly addNameRange     '0.14.1',
+31 silly addNameRange     '0.14.2',
+31 silly addNameRange     '0.15.0',
+31 silly addNameRange     '0.15.1' ] ]
+32 verbose addNamed [ 'forever', '0.15.1' ]
+33 verbose addNamed [ '0.15.1', '0.15.1' ]
+34 silly lockFile dc7fb2a6-forever-0-15-1 forever@0.15.1
+35 verbose lock forever@0.15.1 /home/douglas/.npm/dc7fb2a6-forever-0-15-1.lock
+36 silly lockFile dc7fb2a6-forever-0-15-1 forever@0.15.1
+37 silly lockFile dc7fb2a6-forever-0-15-1 forever@0.15.1
+38 silly lockFile 28ef027b-forever forever@
+39 silly lockFile 28ef027b-forever forever@
+40 silly resolved [ { name: 'forever',
+40 silly resolved     preferGlobal: 'true',
+40 silly resolved     description: 'A simple CLI tool for ensuring that a given node script runs continuously (i.e. forever)',
+40 silly resolved     version: '0.15.1',
+40 silly resolved     author: { name: 'Charlie Robbins', email: 'charlie.robbins@gmail.com' },
+40 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+40 silly resolved     repository: { type: 'git', url: 'http://github.com/nodejitsu/forever.git' },
+40 silly resolved     keywords: [ 'cli', 'fault tolerant', 'sysadmin', 'tools' ],
+40 silly resolved     dependencies:
+40 silly resolved      { cliff: '~0.1.9',
+40 silly resolved        clone: '^1.0.2',
+40 silly resolved        colors: '~0.6.2',
+40 silly resolved        flatiron: '~0.4.2',
+40 silly resolved        'forever-monitor': '~1.6.0',
+40 silly resolved        nconf: '~0.6.9',
+40 silly resolved        nssocket: '~0.5.1',
+40 silly resolved        'object-assign': '^3.0.0',
+40 silly resolved        optimist: '~0.6.0',
+40 silly resolved        'path-is-absolute': '~1.0.0',
+40 silly resolved        prettyjson: '^1.1.2',
+40 silly resolved        shush: '^1.0.0',
+40 silly resolved        timespan: '~2.3.0',
+40 silly resolved        utile: '~0.2.1',
+40 silly resolved        winston: '~0.8.1' },
+40 silly resolved     devDependencies:
+40 silly resolved      { broadway: '~0.3.6',
+40 silly resolved        eventemitter2: '0.4.x',
+40 silly resolved        request: '2.x.x',
+40 silly resolved        vows: '0.7.x' },
+40 silly resolved     bin: { forever: './bin/forever' },
+40 silly resolved     main: './lib/forever',
+40 silly resolved     scripts: { test: 'vows test/**/*-test.js --spec -i' },
+40 silly resolved     engines: { node: '>= 0.8.x' },
+40 silly resolved     license: 'MIT',
+40 silly resolved     gitHead: '6c157fafe909eb555b9e73028338377b05d51f51',
+40 silly resolved     bugs: { url: 'https://github.com/nodejitsu/forever/issues' },
+40 silly resolved     homepage: 'https://github.com/nodejitsu/forever',
+40 silly resolved     _id: 'forever@0.15.1',
+40 silly resolved     _shasum: '5e4e3d4ef946bef88ddcb9cc7412e478ad19e04e',
+40 silly resolved     _from: 'forever@',
+40 silly resolved     _npmVersion: '2.6.1',
+40 silly resolved     _nodeVersion: '0.10.40',
+40 silly resolved     _npmUser: { name: 'indexzero', email: 'charlie.robbins@gmail.com' },
+40 silly resolved     dist:
+40 silly resolved      { shasum: '5e4e3d4ef946bef88ddcb9cc7412e478ad19e04e',
+40 silly resolved        tarball: 'http://registry.npmjs.org/forever/-/forever-0.15.1.tgz' },
+40 silly resolved     directories: {},
+40 silly resolved     _resolved: 'https://registry.npmjs.org/forever/-/forever-0.15.1.tgz',
+40 silly resolved     readme: 'ERROR: No README data found!' } ]
+41 info install forever@0.15.1 into /home/douglas/Git/gredizer
+42 info installOne forever@0.15.1
+43 verbose node_modules/forever unbuild
+44 info preuninstall forever@0.15.1
+45 info uninstall forever@0.15.1
+46 verbose true,/home/douglas/Git/gredizer/node_modules,/home/douglas/Git/gredizer/node_modules unbuild forever@0.15.1
+47 verbose /home/douglas/Git/gredizer/node_modules/.bin,[object Object] binRoot
+48 info postuninstall forever@0.15.1
+49 verbose node_modules/forever unbuild
+50 error error rolling back Error: EACCES, unlink '/home/douglas/Git/gredizer/node_modules/forever/node_modules/.bin/prettyjson'
+50 error error rolling back  forever@0.15.1 { [Error: EACCES, unlink '/home/douglas/Git/gredizer/node_modules/forever/node_modules/.bin/prettyjson']
+50 error error rolling back   errno: 3,
+50 error error rolling back   code: 'EACCES',
+50 error error rolling back   path: '/home/douglas/Git/gredizer/node_modules/forever/node_modules/.bin/prettyjson' }
+51 error Error: EACCES, unlink '/home/douglas/Git/gredizer/node_modules/forever/node_modules/.bin/prettyjson'
+51 error  { [Error: EACCES, unlink '/home/douglas/Git/gredizer/node_modules/forever/node_modules/.bin/prettyjson']
+51 error   errno: 3,
+51 error   code: 'EACCES',
+51 error   path: '/home/douglas/Git/gredizer/node_modules/forever/node_modules/.bin/prettyjson' }
+52 error Please try running this command again as root/Administrator.
+53 error System Linux 3.19.0-28-generic
+54 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "forever" "--save"
+55 error cwd /home/douglas/Git/gredizer/tasks
+56 error node -v v0.10.25
+57 error npm -v 1.4.21
+58 error path /home/douglas/Git/gredizer/node_modules/forever/node_modules/.bin/prettyjson
+59 error code EACCES
+60 error errno 3
+61 error stack Error: EACCES, unlink '/home/douglas/Git/gredizer/node_modules/forever/node_modules/.bin/prettyjson'
+62 verbose exit [ 3, true ]
