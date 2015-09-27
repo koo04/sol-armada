@@ -6,13 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!--STYLES-->
+    <link rel="stylesheet" href="/styles/Dependencies/bootstrap.css">
+    <link rel="stylesheet" href="/styles/Dependencies/font-awesome.css">
     <link rel="stylesheet" href="/styles/bootstrap.css">
+    <link rel="stylesheet" href="/styles/custom.css">
     <link rel="stylesheet" href="/styles/importer.css">
     <!--STYLES END-->
-  </head>
+  </head> 
 
   <body>
-    <%- body %>
+    <div class="container">
+      <div class="row">
+        <%- include components/navbar.ejs %>
+        <div id="jumbo" class="jumbotron text-center"></div>
+        <%- include components/sidebar.ejs %>
+        <%- body %>
+      </div>
+    </div>
 
     <!--TEMPLATES-->
     
@@ -20,6 +30,7 @@
 
     <!--SCRIPTS-->
     <script src="/js/dependencies/sails.io.js"></script>
+    <script src="/js/dependencies/jquery.min.js"></script>
     <script src="/js/dependencies/bootstrap-formhelpers-colorpicker.js"></script>
     <script src="/js/dependencies/bootstrap-formhelpers-countries.js"></script>
     <script src="/js/dependencies/bootstrap-formhelpers-currencies.js"></script>
@@ -36,6 +47,13 @@
     <script src="/js/dependencies/bootstrap-formhelpers-timepicker.js"></script>
     <script src="/js/dependencies/bootstrap-formhelpers-timezones.js"></script>
     <script src="/js/dependencies/bootstrap.js"></script>
+    <script src="/js/dependencies/bootstrap.min.js"></script>
+    <script src="/js/dependencies/flot/excanvas.min.js"></script>
+    <script src="/js/dependencies/flot/flot-data.js"></script>
+    <script src="/js/dependencies/flot/jquery.flot.js"></script>
+    <script src="/js/dependencies/flot/jquery.flot.pie.js"></script>
+    <script src="/js/dependencies/flot/jquery.flot.resize.js"></script>
+    <script src="/js/dependencies/flot/jquery.flot.tooltip.min.js"></script>
     <script src="/js/dependencies/lang/ar/bootstrap-formhelpers-countries.ar.js"></script>
     <script src="/js/dependencies/lang/de_DE/bootstrap-formhelpers-countries.de_DE.js"></script>
     <script src="/js/dependencies/lang/en_US/bootstrap-formhelpers-countries.en_US.js"></script>
@@ -59,7 +77,7 @@
     <script src="/js/dependencies/lang/zh_CN/bootstrap-formhelpers-countries.zh_CN.js"></script>
     <script src="/js/dependencies/lang/zh_CN/bootstrap-formhelpers-timezones.zh_CN.js"></script>
     <script src="/js/dependencies/lang/zh_TW/bootstrap-formhelpers-countries.zh_TW.js"></script>
-    <script src="/js/jquery-2.1.4.min.js"></script>
+    <script src="/js/client.js"></script>
     <!--SCRIPTS END-->
   </body>
 </html>

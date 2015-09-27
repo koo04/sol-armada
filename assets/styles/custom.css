@@ -1,0 +1,23 @@
+body {
+  padding-top: 3rem;
+}
+
+.text-lightgrey {
+  color: lightgrey;
+}
+
+.jumbotron {
+  min-height: 30rem;
+}
+
+.sidebar {
+  min-height: 75rem;
+}
+
+.background-grey {
+  background-color: #eee;
+}
+
+.content {
+  min-height: 75rem;
+}
