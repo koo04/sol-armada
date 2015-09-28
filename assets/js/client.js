@@ -62,6 +62,11 @@ var app = {
   site: { // sitewide functionality
     setup: function () {
       
+      window.setInterval(function() {
+        var frame = document.getElementById('discord-widget');
+        frame.src = frame.src;
+      }, 20000);
+      
       $('.number-only').keypress(function (e) {
         if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
           return false;

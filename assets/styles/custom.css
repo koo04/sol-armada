@@ -24,12 +24,18 @@ body {
   background-color: #eee;
 }
 
-.content {
-  min-height: 75rem;
-}
-
 .footer {
   margin-top: 1rem;
   margin-bottom: 1rem;
   min-height: 2.5rem;
+}
+
+.alert {
+  display: none;
+  margin-bottom: 0px;
+}
+
+.artical a {
+  color: black;
+  text-decoration: none;
 }
