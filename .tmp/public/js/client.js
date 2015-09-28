@@ -62,24 +62,6 @@ var app = {
   site: { // sitewide functionality
     setup: function () {
       
-      $(window).resize( function() {
-        var div = document.getElementById('jumbo');
-        div.innerHTML = "<h3 class='text-lightgrey'>" + $('#jumbo').width() + "x" + $('#jumbo').height() + "</h3>";
-        var div = document.getElementById('sidebar');
-        div.innerHTML = "<h3 class='text-lightgrey'>" + $('#sidebar').width() + "x" + $('#sidebar').height() + "</h3>";
-        var div = document.getElementById('content');
-        div.innerHTML = "<h3 class='text-lightgrey'>" + $('#content').width() + "x" + $('#content').height() + "</h3>";
-      });
-      
-      $(window).load( function() {
-        var div = document.getElementById('jumbo');
-        div.innerHTML = "<h3 class='text-lightgrey'>" + $('#jumbo').width() + "x" + $('#jumbo').height() + "</h3>";
-        var div = document.getElementById('sidebar');
-        div.innerHTML = "<h3 class='text-lightgrey'>" + $('#sidebar').width() + "x" + $('#sidebar').height() + "</h3>";
-        var div = document.getElementById('content');
-        div.innerHTML = "<h3 class='text-lightgrey'>" + $('#content').width() + "x" + $('#content').height() + "</h3>";
-      });
-      
       $('.number-only').keypress(function (e) {
         if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
           return false;

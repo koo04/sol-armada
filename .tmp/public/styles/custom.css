@@ -10,8 +10,14 @@ body {
   min-height: 30rem;
 }
 
-.sidebar {
-  min-height: 75rem;
+.sidebar iframe{
+  width: 100%;
+  height: 50rem;
+  margin-bottom: 0px;
+}
+
+.sidebar div {
+  margin-top: 1rem;
 }
 
 .background-grey {
@@ -20,4 +26,10 @@ body {
 
 .content {
   min-height: 75rem;
+}
+
+.footer {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  min-height: 2.5rem;
 }
