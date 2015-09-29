@@ -1,11 +1,24 @@
-
-<div id="jumbo" class="jumbotron text-center"></div>
-<%- include components/sidebar.ejs %>
-<div class="col-md-9 content">
-  <div class="col-md-12 artical">
-    <h2><a href="<%- data.news[0].link %>"><%- data.news[0].feed.name %></a><small> <%- data.news[0].author %></small></h2>
-    <%- data.news[0].content %>
-    <hr>
-    <h6><%- data.news[0].published %></h6>
+<div class="jumbotron">
+  <div class="row">
+    <div class="col-md-4">
+      <img class="img-responsive" src="images/sol-logo-monochrome.svg" width="250px" />
+    </div>
+    <div class="col-md-4">
+      <h3>Very Jumbo</h1><h3>Much Space</h1>
+    </div>
+    <div class="col-md-4">
+      <img class="img-responsive" src="images/sol-logo.svg" width="250px" />
+    </div>
   </div>
+</div>
+<%- include components/sidebar.ejs %>
+<div class="col-md-9 articals">
+  <% for(var i = 0; i < data.news.length; i++) { %>
+  <div class="col-md-12 artical">
+    <h2><a href="<%- data.news[i].link %>"><%- data.news[i].feed.name %></a><small> <%- data.news[i].author %></small></h2>
+    <%- data.news[i].content %>
+    <footer><%- data.news[i].published %></footer>
+  </div>
+  <div class="col-md-12"><hr></div>
+  <% } %>
 </div> 

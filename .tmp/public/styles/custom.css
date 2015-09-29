@@ -1,13 +1,36 @@
 body {
   padding-top: 3rem;
+  background-color: #222222;
+}
+
+.navbar-default {
+  background-color: #ffbe00;
+  border-color: #ffbe00;
+  border-radius: 0px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #1f24e0;
+  background-color: #d9a200;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #1f24e0;
+}
+
+.navbar-default .navbar-brand {
+  color: #1f24e0;
 }
 
 .text-lightgrey {
   color: lightgrey;
 }
 
-.jumbotron {
-  min-height: 30rem;
+.container .jumbotron {
+  background-color: rgba(255,255,255,.25);
+  border-radius: 0px;
+  color: darkgrey;
+  text-align: center;
 }
 
 .sidebar iframe{
@@ -27,7 +50,15 @@ body {
 .footer {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  min-height: 2.5rem;
+  background-color: rgba(255,255,255,.25);
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.footer p small {
+  font-size: 1rem;
 }
 
 .alert {
@@ -35,7 +66,32 @@ body {
   margin-bottom: 0px;
 }
 
+.articals {
+  background-color: rgba(255,255,255,.1);
+}
+
+.articals hr {
+  border-top-color: #ffbe00;
+}
+
 .artical a {
-  color: black;
+  color: #1f24e0;
   text-decoration: none;
+}
+
+.artical {
+  color: white;
+  text-decoration: none;
+}
+
+.artical hr {
+  color: #1f24e0;
+  margin-top: 0px;
+  
+}
+
+.artical footer {
+  color: #1f24e0;
+  margin-bottom: .5rem;
+  
 }
