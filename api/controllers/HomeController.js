@@ -5,7 +5,7 @@ module.exports = {
     var data = {};
     var user = {};
     
-    feed("http://204.27.57.106/topic/2.rss", function(err, articals) {
+    feed("http://74.91.27.227/topic/2.rss", function(err, articals) {
       if(err) return res.json({ message: err });
       
       data.news = articals;
