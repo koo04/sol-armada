@@ -43,3 +43,4 @@ nbproject
 # local config
 ########################
 config/local.js
+.tmp/public/js/client.js

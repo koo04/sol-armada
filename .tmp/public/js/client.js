@@ -65,7 +65,7 @@ var app = {
       window.setInterval(function() {
         var frame = document.getElementById('discord-widget');
         frame.src = frame.src;
-      }, 20000);
+      }, 40000);
       
       $('.number-only').keypress(function (e) {
         if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
