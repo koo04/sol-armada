@@ -12,9 +12,10 @@ body {
 
 .navbar-default {
 /*  background-color: #ffbe00;*/
-  background-color: #0c0f8a;
+  background-color: rgba(12, 15, 138, 0.51);
 /*  border-color: #ffbe00;*/
-  border-color: #0c0f8a;
+  border: none;
+/*  border-color: #0c0f8a;*/
   border-radius: 0px;
 }
 
@@ -49,6 +50,10 @@ body {
   border-radius: 0px;
   color: darkgrey;
   text-align: center;
+}
+
+.sidebar {
+  
 }
 
 .sidebar iframe{
@@ -90,14 +95,15 @@ body {
   border-top-color: #0c0f8a;
 }
 
+.artical {
+  color: white;
+  text-decoration: none;
+
+}
+
 .artical a {
 /*  color: #1f24e0;*/
   color: #ffbe00;
-  text-decoration: none;
-}
-
-.artical {
-  color: white;
   text-decoration: none;
 }
 

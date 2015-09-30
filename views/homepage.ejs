@@ -1,26 +1,17 @@
-<!--
-<div class="jumbotron">
+<div class="col-md-3 sidebar">
   <div class="row">
-    <div class="col-md-4">
-      <img class="img-responsive" src="images/sol-logo-monochrome.svg" width="250px" />
-    </div>
-    <div class="col-md-4">
-      <h3>Very Jumbo</h1><h3>Much Space</h1>
-    </div>
-    <div class="col-md-4">
-      <img class="img-responsive" src="images/sol-logo.svg" width="250px" />
-    </div>
+    <iframe id="discord-widget" src="https://discordapp.com/widget?id=91981365452488704" frameborder="0" allowtransparency="true" frameborder="0"></iframe>
   </div>
 </div>
--->
-<%- include components/sidebar.ejs %>
 <div class="col-md-9 articals">
-  <% for(var i = 0; i < data.news.length; i++) { %>
-  <div class="col-md-12 artical">
-    <h2><a href="<%- data.news[i].link %>"><%- data.news[i].feed.name %></a><small> <%- data.news[i].author %></small></h2>
-    <%- data.news[i].content %>
-    <footer><%- data.news[i].published %></footer>
+ <div class="row">
+    <% for(var i = 0; i < data.news.length; i++) { %>
+    <div class="col-md-12 artical">
+      <h2><a href="<%- data.news[i].link %>"><%- data.news[i].feed.name %></a><small> <%- data.news[i].author %></small></h2>
+      <%- data.news[i].content %>
+      <footer><%- data.news[i].published %></footer>
+      <hr>
+    </div>
   </div>
-  <div class="col-md-12"><hr></div>
   <% } %>
 </div> 
