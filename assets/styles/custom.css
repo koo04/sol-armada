@@ -89,7 +89,7 @@ body {
 }
 
 .articals {
-  background-color: rgba(0,0,0,.5);
+/*  background-color: rgba(0,0,0,.5);*/
 }
 
 .articals hr {
@@ -100,7 +100,7 @@ body {
 .artical {
   color: white;
   text-decoration: none;
-
+  background-color: rgba(0,0,0,.5);
 }
 
 .artical a {
@@ -111,9 +111,8 @@ body {
 
 .artical hr {
 /*  color: #1f24e0;*/
-  color: #ffbe00;
+  border-top-color: white;
   margin-top: 0px;
-  
 }
 
 .artical footer {

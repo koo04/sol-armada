@@ -9,11 +9,13 @@
  <div class="row">
     <% for(var i = 0; i < data.news.length; i++) { %>
     <div class="col-md-12 artical">
-      <h2><a href="<%- data.news[i].link %>"><%- data.news[i].feed.name %></a><small> <%- data.news[i].author %></small></h2>
+      <h2><a href="<%- data.news[i].link %>"><%- data.news[i].title %></a><small> <%- data.news[i].author %></small></h2>
       <%- data.news[i].content %>
       <footer><%- data.news[i].published %></footer>
-      <hr>
     </div>
+    <% if(i+1 < data.news.length) { %>
+    <div class="col-md-12"><hr></div>
+    <% } %>
+    <% } %>
   </div>
-  <% } %>
 </div> 

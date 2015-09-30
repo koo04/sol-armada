@@ -5,7 +5,7 @@ module.exports = {
     var data = {};
     var user = {};
     
-    feed("http://forum.solarmada.com/topic/2.rss", function(err, articals) {
+    feed("http://forum.solarmada.com/category/1.rss", function(err, articals) {
       if(err) return res.json({ message: err });
       
       data.news = articals;
