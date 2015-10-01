@@ -44,3 +44,5 @@ nbproject
 ########################
 config/local.js
 .tmp/public/js/client.js
+.tmp/public/styles/custom.css
+.tmp/public/js/client.js

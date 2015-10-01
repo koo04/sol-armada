@@ -66,9 +66,14 @@ var app = {
         var frame = document.getElementById('discord-widget');
         frame.src = frame.src;
       }, 40000);
-        if($(window).width() < 968) {
-          $('.sidebar').hide();
-        }
+      
+      if($(window).width() < 968) {
+        $('.sidebar').hide();
+        $('body').css('background-image','none');
+        $('footer').hide();
+        $('.artical').css('background-color','rgba(0,0,0,0)');
+        $('.logo').css('background-color','rgba(0,0,0,0)');
+      }
       
       $(window).resize(function(){
         if($(window).width() < 968) {
