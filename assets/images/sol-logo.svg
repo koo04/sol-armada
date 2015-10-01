@@ -10,8 +10,6 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="4359.6436"
-   height="4344.2148"
    viewBox="0 0 4359.6434 4344.2149"
    id="svg2"
    version="1.1"
@@ -20,6 +18,11 @@
    inkscape:export-filename="D:\Desktop\sol-lf-gs.png"
    inkscape:export-xdpi="8.865778"
    inkscape:export-ydpi="8.865778">
+  <style>
+    @media screen and (max-width: 800px) { … }
+    @media screen and (max-width: 600px) { … }
+    @media screen and (max-width: 400px) { … }
+  </style>
   <defs
      id="defs4">
     <inkscape:perspective
