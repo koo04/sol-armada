@@ -1,5 +1,6 @@
 module.exports.routes = {
 
-  '/': 'HomeController.home'
+  '/': 'HomeController.home',
+  'get /calendar': 'CalendarController.calendar'
 
 };
