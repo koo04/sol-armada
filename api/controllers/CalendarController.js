@@ -21,7 +21,6 @@ module.exports = {
       }
       
       events.sort(function(a,b) {
-        console.info(a.date);
         return new Date(a.date).getTime() - new Date(b.date).getTime();
       });
       
