@@ -5,17 +5,14 @@
   <% if(data.events) { %>
   <%
     for(var i = 0; i < data.events.length; i++) {
-      var eDate = data.events[i].title.match(/\[(.*?)\]/);
-      var eDateSplit = eDate[1].split('&#x2F;');
-      var date = new Date(parseInt("20" + eDateSplit[2]), parseInt(eDateSplit[0])-1, parseInt(eDateSplit[1]));
-      var year = date.getFullYear();
+      var date = new Date(data.events[i].date);
       if(date == today) {
   %>
   <a class="col-md-2 event btn today" href="<%- data.events[i].link %>">
     <p class="date">TODAY!</p>
     <p class="title"><%= data.events[i].title.replace(/\[(.*?)\]/, "") %></p>
   </a>
-  <% } else if(date > today) {%>
+  <% } else if(date > today) { %>
   <a class="col-md-2 event btn" href="<%- data.events[i].link %>">
     <p class="date"><%= date.toDateString() %></p>
     <p class="title"><%= data.events[i].title.replace(/\[(.*?)\]/, "") %></p>
