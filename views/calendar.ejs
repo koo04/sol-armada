@@ -9,7 +9,6 @@
       var eDateSplit = eDate[1].split('&#x2F;');
       var date = new Date(parseInt("20" + eDateSplit[2]), parseInt(eDateSplit[0])-1, parseInt(eDateSplit[1]));
       var year = date.getFullYear();
-      console.log(data.events[i]);
       if(date == today) {
   %>
   <a class="col-md-2 event btn today" href="<%- data.events[i].link %>">
