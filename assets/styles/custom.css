@@ -94,6 +94,8 @@ body {
 
 .articals {
 /*  background-color: rgba(0,0,0,.5);*/
+  overflow: hidden;
+  width: 87.75rem;
 }
 
 .articals hr {
@@ -102,9 +104,13 @@ body {
 }
 
 .artical {
+  padding-right: 1.25;
   color: white;
   text-decoration: none;
   background-color: rgba(0,0,0,.5);
+  max-height: 50rem;
+  width: 90rem;
+  overflow: auto;
 }
 
 .artical a {
@@ -117,6 +123,7 @@ body {
 /*  color: #1f24e0;*/
   border-top-color: white;
   margin-top: 0px;
+  margin-right: 2.5rem;
 }
 
 .artical footer {
