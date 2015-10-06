@@ -62,27 +62,32 @@ var app = {
   site: { // sitewide functionality
     setup: function () {
       
-      /* initialize soundcloud API with key */
-      SC.initialize({
-          /* This is the sample client_id. you should replace this with your own*/
-          client_id: "81211858"
-      });
-      
-      /* set user we wish to see trackList for */
-      var USER = "the-sol-armada"
-      /* set user name on DOM */
-      $("#user").html(USER);
-
-      /* Use soundcloud API to get track list */
-      SC.get("/users/"+USER+"/tracks", {limit: 100}, function(tracks){
-        var trackList = ""
-        for (var i = 0; i < tracks.length; i++) {
-          /* populate trackList html */
-          trackList += tracks[i].title + "<br>";
-        }
-        $("#status").html(trackList);
-      });
-      
+//      /* initialize soundcloud API with key */
+//      SC.initialize({
+//          /* This is the sample client_id. you should replace this with your own*/
+//          client_id: "81211858"
+//      });
+//
+//      /* Use soundcloud API to get track list */
+//      SC.get("/users/the-sol-armada/tracks", {limit: 100}, function(tracks){
+//        var trackList = ""
+//        for (var i = 0; i < tracks.length; i++) {
+//          /* populate trackList html */
+//          trackList += tracks[i].title + "<br>";
+//        }
+//        $("#status").html(trackList);
+//      });
+//      $.get(
+//        'https://api.soundcloud.com/tracks?client_id=2496d563bc04969008f51510c282da89', 
+//        function (result) {
+//          console.log(result);
+//        }
+//      );
+//      
+//        SC.initialize({
+//          client_id: '2496d563bc04969008f51510c282da89',
+//          redirect_uri: 'http://example.com/callback'
+//        });
       window.setInterval(function() {
         var frame = document.getElementById('discord-widget');
         frame.src = frame.src;
