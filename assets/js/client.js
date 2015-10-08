@@ -102,11 +102,15 @@ var app = {
       }
       
       $(window).resize(function(){
-        if($(window).width() < 968) {
+        if($(window).width() < 1183) {
           $('.sidebar').hide();
+          $('.articals').removeClass('col-md-9');
+          $('.articals').addClass('col-md-12');
         }
-        if($(window).width() > 970) {
+        if($(window).width() > 1185) {
           $('.sidebar').show();
+          $('.articals').removeClass('col-md-12');
+          $('.articals').addClass('col-md-9');
         }
       });
       

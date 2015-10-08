@@ -95,7 +95,7 @@ body {
 .articals {
 /*  background-color: rgba(0,0,0,.5);*/
   overflow: hidden;
-  width: 87.75rem;
+/*  width: 87.75rem;*/
 }
 
 .articals hr {
@@ -109,7 +109,7 @@ body {
   text-decoration: none;
   background-color: rgba(0,0,0,.5);
   max-height: 50rem;
-  width: 90rem;
+/*  width: 90rem;*/
   overflow: auto;
 }
 

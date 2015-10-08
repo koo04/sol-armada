@@ -2,6 +2,8 @@ var feed = require("feed-read");
 
 module.exports = {
   home: function (req, res) {
+    var discord = Discord.discord();
+    console.log(discord);
     var data = {};
     
     feed("http://forum.solarmada.com/category/1.rss", function(err, articals) {
