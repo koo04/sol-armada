@@ -124,6 +124,13 @@ var app = {
         var $form = $(this).parents("form").first();
         app.site.submitForm($form);
       });
+      
+      $("body").on("click", ".discord", function () {
+        var win = window.open('https://discord.gg/0Vr0BMdhh6w3AcoX',"_blank");
+        if(win) {
+          win.focus();
+        }
+      });
 
       $("body").on("click", ".register", function () {
         var $form = $(this).parents("form").first();

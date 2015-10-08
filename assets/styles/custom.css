@@ -51,6 +51,18 @@ body {
   color: lightgrey;
 }
 
+.text-white {
+  color: white;
+}
+
+.text-complimentary {
+  color: #1418cb;
+}
+
+.text-primary {
+  color: #d9a200;
+}
+
 .container .jumbotron {
   background-color: rgba(255,255,255,.25);
   border-radius: 0px;
@@ -59,7 +71,7 @@ body {
 }
 
 .sidebar {
-  
+  background-color: rgba(0,0,0,.5);
 }
 
 .sidebar iframe{
@@ -170,3 +182,20 @@ body {
   background-color: rgba(12, 138, 17, 0.31);
 }
 
+.member img {
+  margin-right: 1rem;
+}
+
+.discord-header h4 {
+  margin-bottom: 0;
+}
+
+.discord-header p {
+  margin-top: 0;
+}
+
+.btn-primary {
+  background-color: rgba(12, 15, 138, 0.51);
+  border: none;
+  border-radius: 0;
+}

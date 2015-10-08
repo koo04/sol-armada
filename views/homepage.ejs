@@ -1,11 +1,31 @@
+
+<% console.log(data.discord); %>
+
 <div class="col-md-3 sidebar">
   <div class="row">
     <div class="col-md-12">
-       <button class="btn btn-primary btn-block discord">Join Discord Server</button>
+       <button class="btn btn-primary btn-block discord text-primary">Join Discord Server</button>
     </div>
-    <div class="col-md-12">
-      <iframe id="discord-widget" src="https://discordapp.com/widget?id=91981365452488704" frameborder="0" allowtransparency="true" frameborder="0"></iframe>
+    <div class="col-md-12 discord-header">
+      <h4 class="text-center text-primary">Discord Server</h4>
+      <p class="text-center text-complimentary"><%- data.discord.members.length %> Users Online</p>
     </div>
+    <% for(var i = 0; i < data.discord.channels.length; i++) { %>
+    <% var channel = data.discord.channels[i]; %>
+    <div class="col-md-12 text-white channel">
+      <%- channel.name %>
+      <div class="row">
+        <% for(var j = 0; j < data.discord.members.length; j++) { %>
+        <% var member = data.discord.members[j]; %>
+        <% if(member.channel_id == channel.id) { %>
+        <div class="col-md-11 col-md-offset-1 member">
+          <img class="img-circle" width="15rem" src="<%- member.avatar_url %>" /><%- member.username %>
+        </div>
+        <% } %>
+        <% } %>
+      </div>
+    </div>
+    <% } %>
   </div>
 </div>
 <div class="col-md-9 articals">
