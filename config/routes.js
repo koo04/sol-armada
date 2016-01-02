@@ -2,6 +2,7 @@ module.exports.routes = {
 
   '/': 'HomeController.home',
   'get /calendar': 'CalendarController.calendar',
-  'get /sounds': 'SoundController.sounds'
+  'get /sounds': 'SoundController.sounds',
+  '/playground/:page': 'PlaygroundController.select'
 
 };
