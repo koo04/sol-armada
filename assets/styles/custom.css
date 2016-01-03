@@ -147,7 +147,7 @@ body {
   
 }
 
-.events{
+.events, .news{
   background-color: rgba(0,0,0,.5);
   
 }
@@ -163,19 +163,19 @@ body {
   min-height: 10rem;
 }
 
-.events h1 {
+.events h1, .news h1 {
   color: #ffbe00;
 }
 
-.events .btn {
+.events .btn, .news .btn {
   white-space: inherit;
 }
 
-.events .btn:hover {
+.events .btn:hover, news .btn:hover {
   color: #ffbe00;
 }
 
-.events hr {
+.events hr, .news hr {
 /*  border-top-color: #ffbe00;*/
   border-top-color: #0c0f8a;
 }
