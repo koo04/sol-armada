@@ -1,12 +1,11 @@
-var http = require('http');
+var https = require('https');
 
 module.exports = {
   discord: function (callback) {
-    var url = 'http://discordapp.com/api/servers/91981365452488704/embed.json';
+    var url = 'https://discordapp.com/api/servers/91981365452488704/embed.json';
 
-    http.get(url, function(res) {
+    https.get(url, function(res) {
       var body = '';
-
       res.on('data', function(chunk) {
           body += chunk;
       });
