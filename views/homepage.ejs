@@ -27,6 +27,7 @@
 </div>
 <div class="col-md-9 articals">
  <div class="row">
+    <% if(data.forum) { %>
     <% for(var i = 0; i < data.news.length; i++) { %>
     <% if(data.news[i]) { %>
     <div class="col-md-12 artical">
@@ -38,6 +39,12 @@
     <div class="col-md-12"><hr></div>
     <% } %>
     <% } %>
+    <% } %>
+    <% } else { %>
+    <div class="col-md-12 artical">
+        <h2><a>&gt;.&lt;</a></h2>
+        <h3>Looks like the Forums are down again... Please report this to KooTheGreat on discord. He will get it back up as soon as possible.</h3>
+    </div>
     <% } %>
   </div>
 </div> 
