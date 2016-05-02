@@ -18,7 +18,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    style="enable-background:new"
-   sodipodi:docname="Sol-Logo-2.0.svg"
+   sodipodi:docname="sol-logo.svg"
    inkscape:export-filename="D:\GIT\sol-armada\assets\images\Sol-Logo-2.0.png"
    inkscape:export-xdpi="4.1146226"
    inkscape:export-ydpi="4.1146226">
@@ -168,10 +168,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.125"
-     inkscape:cx="778.46714"
-     inkscape:cy="2262.3417"
+     inkscape:cx="-401.53286"
+     inkscape:cy="1942.3417"
      inkscape:document-units="px"
-     inkscape:current-layer="layer13"
+     inkscape:current-layer="layer14"
      showgrid="false"
      showguides="false"
      inkscape:guide-bbox="true"
@@ -180,9 +180,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1920"
+     inkscape:window-width="1858"
      inkscape:window-height="1057"
-     inkscape:window-x="1432"
+     inkscape:window-x="54"
      inkscape:window-y="-8"
      inkscape:window-maximized="1">
     <sodipodi:guide
@@ -224,7 +224,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -379,7 +379,7 @@
          inkscape:connector-curvature="0"
          id="path4142-1-0"
          d="m 1503.838,2199.8155 344.1619,-151.817 -343.9393,-151.5841 -1643.22759,151.5858 z"
-         style="display:inline;opacity:0.95;fill:url(#linearGradient7051);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.76053882px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:url(#linearGradient7051);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.76053882px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
     <g
        inkscape:groupmode="layer"
@@ -390,7 +390,7 @@
          inkscape:connector-curvature="0"
          id="path4142-1-0-8-2-6"
          d="m 2199.8172,2592.9606 -151.817,-344.9588 -151.584,344.7362 151.5857,1643.2279 z"
-         style="display:inline;opacity:0.95;fill:url(#linearGradient7067);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.76053882px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:url(#linearGradient7067);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.76053882px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
     <g
        inkscape:groupmode="layer"
@@ -401,7 +401,7 @@
          inkscape:connector-curvature="0"
          id="path4142-3-8-8-4-7-9-1"
          d="m 1588.7413,2376.1853 259.3619,-128.1441 -128.2015,259.2793 -408.351,277.2995 z"
-         style="display:inline;opacity:0.95;fill:url(#linearGradient7059);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.53037441px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:url(#linearGradient7059);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.53037441px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
     <g
        inkscape:groupmode="layer"
@@ -412,7 +412,7 @@
          inkscape:connector-curvature="0"
          id="path4142-1-0-8"
          d="m 1896.1838,1504.3297 151.817,343.6683 151.584,-343.4457 -151.5857,-1643.22776 z"
-         style="display:inline;opacity:0.95;fill:url(#linearGradient6993);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient6985);stroke-width:0.76053882px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:url(#linearGradient6993);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient6985);stroke-width:0.76053882px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
     <g
        inkscape:groupmode="layer"
@@ -423,7 +423,7 @@
          inkscape:connector-curvature="0"
          id="path4142-3-8-8-4"
          d="m 1588.6178,1719.8155 259.3619,128.1441 -128.2015,-259.2793 -408.351,-277.2995 z"
-         style="display:inline;opacity:0.95;fill:url(#linearGradient7043);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.53037441px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:url(#linearGradient7043);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.53037441px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
     <g
        inkscape:groupmode="layer"
@@ -434,7 +434,7 @@
          inkscape:connector-curvature="0"
          id="path4142-3-8-8-4-7"
          d="m 2507.379,1719.8215 -259.3619,128.1441 128.2015,-259.2793 408.351,-277.2995 z"
-         style="display:inline;opacity:0.95;fill:url(#linearGradient7099);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.53037441px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:url(#linearGradient7099);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.53037441px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
     <g
        inkscape:groupmode="layer"
@@ -445,7 +445,7 @@
          inkscape:connector-curvature="0"
          id="path4142-1-0-8-2"
          d="m 2592.2675,1896.1855 -344.2713,151.817 344.0487,151.584 1643.2279,-151.5857 z"
-         style="display:inline;opacity:0.95;fill:url(#linearGradient7091);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.76053882px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:url(#linearGradient7091);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.76053882px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
     <g
        inkscape:groupmode="layer"
@@ -456,7 +456,7 @@
          inkscape:connector-curvature="0"
          id="path4142-3-8-8-4-7-9"
          d="m 2507.2602,2376.1841 -259.3619,-128.1441 128.2015,259.2793 408.351,277.2995 z"
-         style="display:inline;opacity:0.95;fill:url(#linearGradient7075);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.53037441px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:url(#linearGradient7075);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.53037441px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
   </g>
   <g
