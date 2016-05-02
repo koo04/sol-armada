@@ -1,23 +1,11 @@
-var http = require('http');
+var request = require('request');
 
 module.exports = {
-  discord: function (callback) {
-    var url = 'http://discordapp.com/api/servers/91981365452488704/embed.json';
+  discord: function (cb) {
+    var url = 'https://discordapp.com/api/servers/91981365452488704/widget.json';
 
-    http.get(url, function(res) {
-      var body = '';
-
-      res.on('data', function(chunk) {
-          body += chunk;
-      });
-
-      res.on('end', function() {
-        var parsed = JSON.parse(body);
-        callback(null, parsed);
-      });
-    }).on('error', function(e) {
-        console.log('Error at getting Discord JSON: ', e);
-        callback(e, null);
+    request(url, function (err, res, body) {
+      cb(null, JSON.parse(body));
     });
-}
+  }
 };
