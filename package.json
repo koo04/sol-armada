@@ -1,8 +1,8 @@
 {
-  "name": "grendizer",
+  "name": "Sol-Armada",
   "private": true,
-  "version": "0.0.0",
-  "description": "a Sails application",
+  "version": "1.0.10",
+  "description": "Sol Armada Website",
   "keywords": [],
   "dependencies": {
     "ejs": "~0.8.4",
@@ -35,8 +35,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/douglas/grendizer.git"
+    "url": "git://github.com/douglas/sol-armada.git"
   },
-  "author": "douglas",
-  "license": ""
+  "author": "Douglas DeVicariis",
+  "license": "GNU"
 }
