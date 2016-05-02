@@ -16,6 +16,5 @@ module.exports = {
           return res.view("homepage", { data: data });
         });
       });
-    }
   }
-}
+};
