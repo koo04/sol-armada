@@ -20,7 +20,7 @@ module.exports = {
   // models: {
   //   connection: 'someMongodbServer'
   // }
-  // Log: {
-  //   Level: "silly"
-  // }
+  Log: {
+    Level: "silly"
+  }
 };
