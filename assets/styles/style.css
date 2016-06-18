@@ -4,8 +4,8 @@ CARNA CSS V.1
 
 [Table of contents]
 
-1. Global 
-2. Reset 
+1. Global
+2. Reset
 3. Extra Classes
 4. Header
 5. Main Menu
@@ -1000,7 +1000,7 @@ button {
   top: 0;
   right: 0;
   z-index: 900;
-  background: #F26F70 url(../images/pattern/pattern-red.png);
+  background: #F26F70 url(../images/pattern/pattern-yellow.png);
   width: 100%;
   height: 100%;
   padding: 2em;
@@ -9350,4 +9350,11 @@ a[data-popup] {
 .main-footer .title-footer {
   color: #fff;
   margin: 0;
+}
+
+/*-----------------------------------------------------------------------------
+  Custom
+-----------------------------------------------------------------------------*/
+.mm-menu__address > p > a, .mm-menu__address > a {
+  color: white;
 }
